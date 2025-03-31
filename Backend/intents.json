@@ -1,0 +1,37 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey"
+            ],
+            "responses": [
+                "Hello! How can I help you today?"
+            ]
+        },
+        {
+            "tag": "symptoms_inquiry",
+            "patterns": [
+                "I have a headache",
+                "I feel nauseous",
+                "My stomach hurts"
+            ],
+            "responses": [
+                "Sorry to hear that. Please consult a doctor if needed."
+            ]
+        },
+        {
+            "tag": "doctor_advice",
+            "patterns": [
+                "Do I need to see a doctor?",
+                "What should I do if I'm sick?"
+            ],
+            "responses": [
+                "It's best to consult a healthcare professional."
+            ]
+        }
+    ]
+}
+ 
